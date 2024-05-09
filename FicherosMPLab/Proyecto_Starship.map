@@ -1,0 +1,161 @@
+MPLINK 4.40, Linker
+Linker Map File - Created Tue May 07 18:02:46 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000002
+                   .org_2       code   0x000004    program   0x000002
+                   .org_3       code   0x000005    program   0x0002b0
+.config_2007_PROYECTO_STARSHIP.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000000      
+                            0x000004    0x00015c      
+                            0x002007    0x002007      
+            347 out of 8454 program addresses used, program memory utilization is 4%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+          COND_TIEMPO2_NO   0x00006d    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO2_OK   0x00006a    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO3_NO   0x000088    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO3_OK   0x000085    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO4_NO   0x0000a3    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO4_OK   0x0000a0    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO6_NO   0x0000cb    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO6_OK   0x0000c8    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO7_NO   0x0000e6    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO7_OK   0x0000e3    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                InterTMR0   0x000024    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             S5_N1_SALIDA   0x0000be    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   ST0_N1   0x000049    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST0_N1_NO   0x00004f    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST0_N1_YES   0x00004c    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST0_SALIDA   0x000051    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST1_SALIDA   0x000061    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST2_2_SALIDA   0x00007c    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST2_SALIDA   0x00007b    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST3_2_SALIDA   0x000097    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST3_SALIDA   0x000096    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST4_2_SALIDA   0x0000b2    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST4_SALIDA   0x0000b1    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST5_N1_NO   0x0000b9    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST5_N1_YES   0x0000bc    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST6_2_SALIDA   0x0000da    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST6_SALIDA   0x0000d9    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST7_2_SALIDA   0x0000f5    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST7_SALIDA   0x0000f4    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST8_N1_NO   0x000100    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST8_N1_YES   0x000103    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST_SALIDA   0x000106    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                St1_N1_NO   0x00005b    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               St1_N1_YES   0x00005e    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State0   0x000046    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State1   0x000053    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                  State10   0x00010f    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State2   0x000062    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State3   0x00007d    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State4   0x000098    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State5   0x0000b3    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State6   0x0000c0    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State7   0x0000db    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State8   0x0000f6    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State9   0x000107    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC2   0x00006e    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC3   0x000089    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC4   0x0000a4    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC6   0x0000cc    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC7   0x0000e7    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                    break   0x000045    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   inicio   0x000005    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                     loop   0x000023    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+           mostrar_numero   0x000117    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_1   0x00011e    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_2   0x000125    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_3   0x00012c    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_4   0x000133    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_5   0x00013a    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_6   0x000141    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_7   0x000148    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_8   0x00014f    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_9   0x000156    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000005    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                     loop   0x000023    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                InterTMR0   0x000024    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                    break   0x000045    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State0   0x000046    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   ST0_N1   0x000049    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST0_N1_YES   0x00004c    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST0_N1_NO   0x00004f    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST0_SALIDA   0x000051    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State1   0x000053    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                St1_N1_NO   0x00005b    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               St1_N1_YES   0x00005e    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST1_SALIDA   0x000061    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State2   0x000062    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO2_OK   0x00006a    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO2_NO   0x00006d    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC2   0x00006e    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST2_SALIDA   0x00007b    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST2_2_SALIDA   0x00007c    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State3   0x00007d    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO3_OK   0x000085    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO3_NO   0x000088    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC3   0x000089    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST3_SALIDA   0x000096    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST3_2_SALIDA   0x000097    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State4   0x000098    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO4_OK   0x0000a0    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO4_NO   0x0000a3    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC4   0x0000a4    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST4_SALIDA   0x0000b1    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST4_2_SALIDA   0x0000b2    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State5   0x0000b3    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST5_N1_NO   0x0000b9    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST5_N1_YES   0x0000bc    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             S5_N1_SALIDA   0x0000be    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State6   0x0000c0    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO6_OK   0x0000c8    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO6_NO   0x0000cb    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC6   0x0000cc    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST6_SALIDA   0x0000d9    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST6_2_SALIDA   0x0000da    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State7   0x0000db    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO7_OK   0x0000e3    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+          COND_TIEMPO7_NO   0x0000e6    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+            WAIT_FOR_ADC7   0x0000e7    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST7_SALIDA   0x0000f4    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+             ST7_2_SALIDA   0x0000f5    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State8   0x0000f6    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST8_N1_NO   0x000100    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+               ST8_N1_YES   0x000103    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                ST_SALIDA   0x000106    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                   State9   0x000107    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                  State10   0x00010f    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+           mostrar_numero   0x000117    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_1   0x00011e    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_2   0x000125    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_3   0x00012c    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_4   0x000133    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_5   0x00013a    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_6   0x000141    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_7   0x000148    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_8   0x00014f    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+                 probar_9   0x000156    program     static C:\Users\detcp\Downloads\Entrega_SBM\Proyecto_Starship\Proyecto_Starship.asm
+
+
